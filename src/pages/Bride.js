@@ -84,12 +84,12 @@ function Bride() {
               <div className='mainsection-text'>
                 <div className='mainsection-text-1'>결혼식에 초대합니다</div>
                 <div className='mainsection-text-2'>
-                  김신랑 <span className='text2-inner'> & </span> 남유미
+                  심명섭 <span className='text2-inner'> & </span> 남유미
                 </div>
                 <div className='mainsection-text-3'>
-                  2023. 00. 0 토요일 오전 11시
+                  2026. 06. 13 토요일 오후 14시 00분
                   <br />
-                  00대학교 웨딩홀
+                  아펠가모 공덕 라로브홀
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ function Bride() {
                 격려해 주시면 감사하겠습니다.
               </div>
               <div className='invitation-section-text3'>
-                김아빠・이엄마<span className='text3-inner'>의 장남</span> 신랑
+                심상락・박태숙<span className='text3-inner'>의 아들</span> 신랑
               </div>
               <div className='invitation-section-text3'>
                 이아빠・박엄마<span className='text3-inner'>의 차녀</span> 신부
@@ -149,18 +149,11 @@ function Bride() {
                 }}
               >
                 <NaverMap
-                  defaultCenter={
-                    new navermaps.LatLng(37.44865592343993, 126.95097244672262)
-                  }
+                  defaultCenter={new navermaps.LatLng(37.544511, 126.951919)}
                   defaultZoom={16}
                 >
                   <Marker
-                    position={
-                      new navermaps.LatLng(
-                        37.44865592343993,
-                        126.95097244672262
-                      )
-                    }
+                    position={new navermaps.LatLng(37.544511, 126.951919)}
                     icon={{
                       url: pinIcon,
                       size: new navermaps.Size(64, 64),
@@ -170,40 +163,35 @@ function Bride() {
               </MapDiv>
             </div>
             <div className='location-info-section'>
-              <div className='location-info-section-text1'>
-                이라운지 서울대점
-              </div>
+              <div className='location-info-section-text1'>아펠가모 공덕</div>
               <div className='location-info-section-text2'>
-                서울특별시 관악구 관악로 1<br />
-                서울대학교 310동 엔지니어하우스
+                서울특별시 마포구 마포대로 92 효성해링턴스퀘어 A동
                 <br />
-                Tel. 02-875-7761
+                공덕역 8번 출구 도보 1~2분
+                <br />
+                Tel. 02-2197-0230
               </div>
             </div>
+
             <div className='location-how-publictrans-section'>
               <div className='location-how-publictrans-section-text1'>
                 대중교통
               </div>
               <ol className='location-how-publictrans-section-list'>
                 <li>
-                  2호선 서울대입구역 3번 출구 → 5511,5513 버스 → 제2공학관(종점)
-                  하차
+                  5호선·6호선·경의중앙선·공항철도 공덕역 8번 출구 도보 1~2분
                 </li>
-                <li>
-                  2호선 낙성대역 4번 출구 → 관악02 마을버스 → 제2공학관(종점)
-                  하차
-                </li>
-                <li>
-                  신림선 관악산역 1번 출구 → 5511,5516 버스 → 제2공학관(종점)
-                  하차
-                </li>
+                <li>마포역(5호선) 도보 약 7~10분</li>
+                <li>공덕역 정류장 하차 (간선/지선 다수 운행)</li>
               </ol>
             </div>
+
             <div className='location-how2-section'>
               <div className='location-how2-section-text1'>자가용</div>
               <div className='location-how2-section-text2'>
-                네비게이션 이용 시 “이라운지 서울대점”을 입력하세요. (주차 2시간
-                무료)
+                네비게이션 이용 시 “아펠가모 공덕”을 입력하세요.
+                <br />
+                건물 내 주차 가능 (예식장 안내에 따라 주차 등록)
               </div>
             </div>
             <div className='congratulatory-section'>
