@@ -149,11 +149,11 @@ function Bride() {
                 }}
               >
                 <NaverMap
-                  defaultCenter={new navermaps.LatLng(37.544511, 126.951919)}
+                  defaultCenter={new navermaps.LatLng(37.5422, 126.9528)}
                   defaultZoom={16}
                 >
                   <Marker
-                    position={new navermaps.LatLng(37.544511, 126.951919)}
+                    position={new navermaps.LatLng(37.5422, 126.9528)}
                     icon={{
                       url: pinIcon,
                       size: new navermaps.Size(64, 64),
