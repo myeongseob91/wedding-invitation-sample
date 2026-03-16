@@ -76,7 +76,7 @@ function Bride() {
             <div className='mainsection'>
               <div>
                 <img
-                  src='/images/door.jpg'
+                  src='/images/door.webp'
                   className='main-image'
                   alt='메인 대문 이미지'
                 />
