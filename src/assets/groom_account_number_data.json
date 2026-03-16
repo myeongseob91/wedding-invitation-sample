@@ -1,10 +1,22 @@
 {
-    "data" : [
-        {
-            "title" : "신랑 계좌",
-            "bank_name" : "신한은행",
-            "account_owner" : "김신랑",
-            "account_number" : "111-222-333333"
-        }
-    ]
+  "data": [
+    {
+      "title": "신랑 계좌",
+      "bank_name": "카카오뱅크",
+      "account_owner": "심명섭",
+      "account_number": "3333-01-7862187"
+    },
+    {
+      "title": "혼주 계좌",
+      "bank_name": "국민은행",
+      "account_owner": "심상락",
+      "account_number": "419825-89-107626"
+    },
+    {
+      "title": "혼주 계좌",
+      "bank_name": "농협은행",
+      "account_owner": "박태숙",
+      "account_number": "207054-56-175941"
+    }
+  ]
 }

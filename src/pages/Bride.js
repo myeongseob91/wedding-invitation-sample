@@ -76,10 +76,10 @@ function Bride() {
             <div className='mainsection'>
               <div>
                 <img
-                  src='https://dave-khim-aws-bucket-public.s3.ap-northeast-2.amazonaws.com/test/love-tenderness-couple-s-crossed-hands.jpg'
+                  src='/images/door.jpg'
                   className='main-image'
-                  alt='t1'
-                ></img>
+                  alt='메인 대문 이미지'
+                />
               </div>
               <div className='mainsection-text'>
                 <div className='mainsection-text-1'>결혼식에 초대합니다</div>
@@ -110,7 +110,7 @@ function Bride() {
                 심상락・박태숙<span className='text3-inner'>의 아들</span> 신랑
               </div>
               <div className='invitation-section-text3'>
-                이아빠・박엄마<span className='text3-inner'>의 차녀</span> 신부
+                남용우・김기온<span className='text3-inner'>의 딸</span> 신부
               </div>
             </div>
             <div className='gallery-section'>
@@ -164,10 +164,14 @@ function Bride() {
             </div>
             <div className='location-info-section'>
               <div className='location-info-section-text1'>아펠가모 공덕</div>
-              <div className='location-info-section-text2'>
-                서울특별시 마포구 마포대로 92 효성해링턴스퀘어 A동
+              <div
+                className='location-info-section-text2'
+                style={{ whiteSpace: 'nowrap', fontFamily: 'NanumMyeongjo' }}
+              >
+                서울특별시 마포구 마포대로 92 효성해링턴스퀘어 B동 7층{' '}
+                <strong>라로브홀</strong>
                 <br />
-                공덕역 8번 출구 도보 1~2분
+                공덕역 7번 출구 도보 1~2분
                 <br />
                 Tel. 02-2197-0230
               </div>
@@ -179,9 +183,8 @@ function Bride() {
               </div>
               <ol className='location-how-publictrans-section-list'>
                 <li>
-                  5호선·6호선·경의중앙선·공항철도 공덕역 8번 출구 도보 1~2분
+                  5호선·6호선·경의중앙선·공항철도 공덕역 7번 출구 도보 1~2분
                 </li>
-                <li>마포역(5호선) 도보 약 7~10분</li>
                 <li>공덕역 정류장 하차 (간선/지선 다수 운행)</li>
               </ol>
             </div>
