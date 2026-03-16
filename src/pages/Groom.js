@@ -101,7 +101,7 @@ function Groom() {
                 김아빠・이엄마<span className='text3-inner'>의 장남</span> 신랑
               </div>
               <div className='invitation-section-text3'>
-                남용우・김기온<span className='text3-inner'>의 차녀</span> 신부
+                남용우・김기온<span className='text3-inner'>의 딸</span> 신부
               </div>
             </div>
             <div className='gallery-section'>
