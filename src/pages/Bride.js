@@ -87,7 +87,7 @@ function Bride() {
                   심명섭 <span className='text2-inner'> & </span> 남유미
                 </div>
                 <div className='mainsection-text-3'>
-                  2026. 06. 13 토요일 오후 14시 00분
+                  2026. 06. 13 토요일 오후 14시
                   <br />
                   아펠가모 공덕 라로브홀
                 </div>
